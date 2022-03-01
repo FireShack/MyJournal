@@ -1,0 +1,17 @@
+export const types = {
+  login: "[Auth] Login",
+  logout: "[Auth] Logout",
+  uiSetError: "[UI] Set Error",
+  uiRemoveError: "[UI] Remove Error",
+  uiStartLoading: "[UI] Start Loading",
+  uiStopLoading: "[UI] Stop Loading",
+  uiSetLoginError: "[UI] Set Login Error",
+  uiRemoveLoginError: "[UI] Remove Login Error",
+  notesAddNew: "[Notes] New note",
+  notesActive: "[Notes] Set Active Note",
+  notesLoad: "[Notes] Load Notes",
+  notesUpdate: "[Notes] Update Note",
+  notesNewUpdate: "[Notes] Update New Note",
+  notesDelete: "[Notes] Delete Note",
+  notesLogoutCleaning: "[Notes] Clear Note",
+};

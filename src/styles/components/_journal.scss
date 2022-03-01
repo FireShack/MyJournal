@@ -1,0 +1,33 @@
+
+// SIDEBAR
+
+.journal__sidebar {
+    height: 100vh;
+    width: 15rem;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+.journal__main__icon {
+    height: 5rem;
+    width: 5rem;
+}
+
+.journal__icons .row {
+    height: 5rem;
+    margin: 1rem;
+}
+
+// NOTES
+
+.journal__textarea{
+    height:90vh;
+    border: none !important;
+}
+.journal__title{
+    height:5rem;
+    border: none !important;
+}
+.journal__textarea:focus{
+    outline:blueviolet !important;
+}
